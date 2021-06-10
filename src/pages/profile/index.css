@@ -1,0 +1,37 @@
+.profiles{
+  display: flex;
+  flex-direction: column;
+  min-height:100vh;
+}
+
+.innerContainer{
+  padding: 0 30px;
+  height:80%;
+  width:100%;
+}
+
+.outerPictureCont{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content:space-between;
+  width:321px;
+  height:350px;
+}
+
+.pictureContainer{
+  width:321px;
+  height:278px;
+  background-color:#57acc7;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.profilePicture{
+  width:70%;
+  height:80%;
+  background-color: #fdb797;
+  border-radius:50%;
+}

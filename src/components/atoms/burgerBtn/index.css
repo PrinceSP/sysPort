@@ -1,0 +1,30 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+.burger{
+  height:46px;
+  width:50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+  background: #fff;
+  cursor:pointer;
+}
+
+.burger:hover{
+  background: #C4C4C4;
+}
+
+.burger:hover>div{
+  background: #fff;
+}
+
+.burger > div {
+  height:3px;
+  width:35px;
+  background: #000;
+}

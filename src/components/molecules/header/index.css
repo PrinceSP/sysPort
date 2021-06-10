@@ -1,0 +1,29 @@
+.cont>div>ul>li{
+  transition:.7s ease-out;
+  width:168%;
+  display: flex;
+  justify-content: center;
+}
+
+.cont>div>ul>li:hover,
+.cont>.link:hover{
+  background-color: #deedf0;
+  padding:10px 20px;
+  transition:200ms ease-in-out;
+  width:100%;
+  cursor:pointer;
+  font-weight:bold;
+}
+
+.cont>.link{
+  background: #fff;
+  text-decoration:none;
+  color:#000;
+  height:40px;
+  width:100%;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  z-index:1;
+  border-radius: 0 3px;
+}
