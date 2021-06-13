@@ -1,4 +1,4 @@
-const Inputs = ({title,holder,value,fontF,clr,size}) => {
+const Inputs = ({className,title,holder,value,fontF,clr,size,height,width=260}) => {
   const style ={
     p:{
       fontFamily:fontF,
@@ -7,14 +7,14 @@ const Inputs = ({title,holder,value,fontF,clr,size}) => {
     },
     input:{
       height:43,
-      width:260,
-      padding:'0 10px'
+      width,
+      padding:'0 8px'
     }
   }
   return (
     <div>
       <p>{title}</p>
-      <input style={style.input} placeholder={holder} value={value}/>
+      <input style={style.input} placeholder={holder} value={value} className={className}/>
     </div>
   )
 }

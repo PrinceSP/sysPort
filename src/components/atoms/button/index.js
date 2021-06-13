@@ -1,6 +1,6 @@
 import './index.css'
 
-const Buttons = ({title,bg='#4870FF',font,fontF,rad=15,left,isTrue,clr='#fff'}) => {
+const Buttons = ({title,bg='#4870FF',font,fontF,rad=15,left,isTrue,clr='#fff',width='205px'}) => {
   let hasShadow;
   if (isTrue){
     hasShadow='0px 6px 20px rgba(0, 0, 0, 0.3)'
@@ -8,7 +8,7 @@ const Buttons = ({title,bg='#4870FF',font,fontF,rad=15,left,isTrue,clr='#fff'}) 
 
   const style={
     button:{
-      width:'205px',
+      width,
       height:'42px',
       backgroundColor: bg,
       color:clr,

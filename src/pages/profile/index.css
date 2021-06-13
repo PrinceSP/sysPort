@@ -3,14 +3,63 @@
   flex-direction: column;
   min-height:100vh;
   width:100%;
+  overflow-x:hidden;
 }
 
+
 .innerContainer{
-  padding: 0 30px;
+  padding: 28px 30px;
   height:80%;
   width:100%;
   display: flex;
+  position:relative;
 }
+
+.innerContainer >img {
+  height:400px;
+  width:600px;
+  position:absolute;
+  right:-100px;
+  top:20%;
+}
+
+.innerContainer>div:nth-child(2){
+  width:550px;
+  margin-left: 50px;
+}
+
+.innerContainer>div>form{
+  width:100%;
+  display:grid;
+  grid-template-columns:repeat(2,290px);
+  grid-auto-rows:minmax(80px,auto);
+  grid-template-areas:
+  "fname lname"
+  "email email"
+  "contact contact"
+  "address address"
+  "city state"
+  "zip country"
+  "gender religion"
+  "faculty major"
+  "password password";
+}
+
+.item-1{grid-area:fname;}
+.item-2{grid-area:lname;}
+.item-3{grid-area:email;}
+.item-4{grid-area:contact;}
+.item-5{grid-area:address;}
+.item-6{grid-area:city;}
+.item-7{grid-area:state;}
+.item-8{grid-area:zip;}
+.item-9{grid-area:country;}
+.item-10{grid-area:gender;}
+.item-11{grid-area:religion;}
+.item-12{grid-area:faculty;}
+.item-13{grid-area:major;}
+.item-14{grid-area:password;}
+
 
 .outerPictureCont{
   display: flex;
