@@ -4,12 +4,17 @@ const Inputs = ({title,holder,value,fontF,clr,size}) => {
       fontFamily:fontF,
       fontSize:size,
       color:clr
+    },
+    input:{
+      height:43,
+      width:260,
+      padding:'0 10px'
     }
   }
   return (
     <div>
       <p>{title}</p>
-      <input placeholder={holder} value={value}/>
+      <input style={style.input} placeholder={holder} value={value}/>
     </div>
   )
 }
