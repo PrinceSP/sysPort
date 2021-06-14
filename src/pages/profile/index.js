@@ -31,9 +31,8 @@ const Profile = () => {
             <div className="item-11"><Inputs title='Religion' holder='Christian' fontF='Cairo' clr='000'/></div>
             <div className="item-12"><Inputs title='Faculty' holder='Economic and Bussiness' fontF='Cairo' clr='000'/></div>
             <div className="item-13"><Inputs title='Major' holder='accounting' fontF='Cairo' clr='000'/></div>
-            <div className="item-14"><Inputs width="95%" title='Password' holder='*******' fontF='Cairo' clr='000'/></div>
+            <div className="item-14"><Inputs width="95%" title='Password' holder='*******' fontF='Cairo' clr='000' type='password'/></div>
             <Buttons title='Save' width="190%" rad={4} bg='#80C54B' clr='#fff' fontF='Cairo'/>
-
           </form>
         </div>
         <img src={ProfileIllustration}/>
