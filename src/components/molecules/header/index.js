@@ -72,7 +72,8 @@ const Header = ({position}) => {
       justifyContent:'space-between',
       padding:'0 30px',
       position,
-      top:0
+      top:0,
+      zIndex:2
     },
     h1:{
       fontFamily: 'Poppins',
