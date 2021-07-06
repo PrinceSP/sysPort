@@ -1,6 +1,6 @@
 import './index.css'
-import {Header,WelcomeText,Buttons} from '../../components'
-import {StudentWave,HumanInSP} from '../../assets'
+import {Header,WelcomeText,Buttons} from '../../../components'
+import {StudentWave,HumanInSP} from '../../../assets'
 import {Link} from 'react-router-dom'
 
 const StudentPageHome = () => {

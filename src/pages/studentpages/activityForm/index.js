@@ -2,9 +2,9 @@ import {AcaWaves,
 BubMid,
 BubLeft,
 BubRight,
-Flowers} from '../../assets'
+Flowers} from '../../../assets'
 import "./index.css"
-import {Header,Inputs,ActivityDetails} from '../../components'
+import {Header,Inputs,ActivityDetails} from '../../../components'
 
 const ActivityForm = () => {
   return (
