@@ -1,4 +1,4 @@
-const Inputs = ({className,fontSize='1.25rem',title,holder,value,fontF,clr,clr2,size,height,width=260,type,bclr='#CED8F0',rad='3px',background='#F7FDFF'}) => {
+const Inputs = ({marginRight,levels,className,name,fontSize='1.25rem',title,holder,value,fontF,clr,clr2,size,height,width=260,type,bclr='#CED8F0',rad='3px',background='#F7FDFF'}) => {
   const style ={
     p:{
       fontFamily:fontF,
@@ -22,12 +22,24 @@ const Inputs = ({className,fontSize='1.25rem',title,holder,value,fontF,clr,clr2,
       display:'flex',
       flexDirection:'column',
       justifyContent:'space-between'
+    },
+    inputsContainer:{
+      display:'flex',
+      flexDirection:'row',
+      alignItems:'center',
+      marginRight
+    },
+    levels:{
+      marginLeft:'10px'
     }
   }
   return (
     <div style={style.container}>
       <p>{title}</p>
-      <input style={style.input} placeholder={holder} value={value} className={className} type={type}/>
+      <div style={style.inputsContainer}>
+        <input style={style.input} placeholder={holder} value={value} className={className} type={type} name={name}/>
+        <p style={style.levels}>{levels}</p>
+      </div>
     </div>
   )
 }

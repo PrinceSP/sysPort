@@ -13,10 +13,10 @@ const DetailsForm = () => {
         <Gaps verticalGap={15}/>
       </div>
       <div className='levels'>
-        <Inputs title='Levels' type='radio' width={25}/>
-        <Inputs type='radio' width={25}/>
-        <Inputs type='radio' width={25}/>
-        <Inputs type='radio' width={25}/>
+        <Inputs levels='International' marginRight={20} name='levels' title='Levels' type='radio' width={25}/>
+        <Inputs levels='National' marginRight={20} name='levels' type='radio' width={25}/>
+        <Inputs levels='Local' marginRight={20} name='levels' type='radio' width={25}/>
+        <Inputs levels='State' marginRight={20} name='levels' type='radio' width={25}/>
       </div>
       <Gaps verticalGap={50}/>
       <div>

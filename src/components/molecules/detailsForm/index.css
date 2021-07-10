@@ -17,7 +17,7 @@
   width:100%;
   padding:0 70px;
   display: grid;
-  grid-template-columns: repeat(2,50px);
+  grid-template-columns: repeat(2,145px);
   grid-template-rows: repeat(2,50px);
 }
 
