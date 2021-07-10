@@ -10,6 +10,7 @@ import BubMid from './bubbleMiddleSPage.svg'
 import BubLeft from './bubleTopLeftSPage.svg'
 import BubRight from './bubbleTopRightSPage.svg'
 import Flowers from './flowersAcademicStudentPage.svg'
+import StAchiev from './humansStudentAchievement.svg'
 
 export {LoginHuman,LoginWaves,FormBoxVector,TopRight,StudentWave,HumanInSP,ProfileIllustration,
-  AcaWaves,BubMid,BubLeft,BubRight,Flowers}
+  AcaWaves,BubMid,BubLeft,BubRight,Flowers,StAchiev}

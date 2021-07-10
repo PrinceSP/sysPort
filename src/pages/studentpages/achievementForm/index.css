@@ -1,0 +1,14 @@
+#containerAchiev{
+  position:relative;
+  min-height:100vh;
+  width:100%;
+  padding-bottom:50px;
+}
+
+#stachievImg{
+  height:600px;
+  weight:700px;
+  position: absolute;
+  right:100px;
+  top:200px;
+}

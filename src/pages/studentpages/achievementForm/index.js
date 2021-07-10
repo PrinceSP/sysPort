@@ -1,7 +1,13 @@
+import {Header,DetailsForm} from '../../../components'
+import {StAchiev} from '../../../assets'
+import './index.css'
+
 const AchievementForm = () => {
   return (
-    <div>
-      <p>Achievement Form Page</p>
+    <div id='containerAchiev'>
+      <Header/>
+      <DetailsForm/>
+      <img src={StAchiev} alt="student achievement page's illustrations" id='stachievImg'/>
     </div>
   )
 }

@@ -1,4 +1,4 @@
-const Inputs = ({className,title,holder,value,fontF,clr,size,height,width=260,type,bclr='#CED8F0',rad='3px'}) => {
+const Inputs = ({className,fontSize='1.25rem',title,holder,value,fontF,clr,clr2,size,height,width=260,type,bclr='#CED8F0',rad='3px',background='#F7FDFF'}) => {
   const style ={
     p:{
       fontFamily:fontF,
@@ -9,11 +9,13 @@ const Inputs = ({className,title,holder,value,fontF,clr,size,height,width=260,ty
       height:43,
       width,
       padding:'0 8px',
-      background: '#F7FDFF',
+      background: background,
       border: `1.5px solid ${bclr}`,
       boxSizing: 'border-box',
       borderRadius: rad,
-      fontSize:'1.25rem'
+      fontSize,
+      fontFamily:fontF,
+      color:clr2
     },
     container:{
       height:'70px',
