@@ -22,8 +22,8 @@ const StudentPageHome = () => {
           />
         <Link style={{textDecoration:'none'}} to='/profile'><Buttons title='View Profile' bg='#1C4EFF' rad={50} left={72} isTrue={true}/></Link>
       </div>
-      <img className='studentWaves' src={StudentWave}/>
-      <img className='humanInSP' src={HumanInSP}/>
+      <img className='studentWaves' src={StudentWave} alt='student page wave illustration'/>
+      <img className='humanInSP' src={HumanInSP} alt='student page human illustration'/>
     </div>
   )
 }

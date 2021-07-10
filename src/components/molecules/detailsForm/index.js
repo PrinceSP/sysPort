@@ -1,4 +1,3 @@
-import React from 'react'
 import {Inputs,Buttons,Gaps} from '../../atoms'
 import './index.css'
 

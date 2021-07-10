@@ -1,4 +1,3 @@
-import {useState,useEffect} from 'react'
 import {Inputs} from '../../../components'
 import './index.css'
 

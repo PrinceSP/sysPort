@@ -1,4 +1,4 @@
-import {Header,WelcomeText,Buttons,Inputs} from '../../components'
+import {Header,Buttons,Inputs} from '../../components'
 import {ProfileIllustration} from '../../assets'
 import './index.css'
 
@@ -35,7 +35,7 @@ const Profile = () => {
             <Buttons title='Save' width="190%" rad={4} bg='#80C54B' clr='#fff' fontF='Cairo'/>
           </form>
         </div>
-        <img src={ProfileIllustration}/>
+        <img src={ProfileIllustration} alt='profile page illustration'/>
       </div>
     </div>
   )

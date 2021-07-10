@@ -107,8 +107,8 @@ const Header = ({position}) => {
     <div style={style.container}>
       <h1 style={style.h1}>Student Portfolio System</h1>
       <div style={style.items}>
-        <img src={Bell}/>
-        <img src={Mail}/>
+        <img src={Bell} alt='Bell icon'/>
+        <img src={Mail} alt='Mail icon'/>
         <div style={style.line}/>
         <div style={style.profpic}/>
         <BurgerBtn onClick={()=>{setShow(!show)}}/>

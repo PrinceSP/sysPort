@@ -4,7 +4,7 @@ BubLeft,
 BubRight,
 Flowers} from '../../../assets'
 import "./index.css"
-import {Header,Inputs,ActivityDetails} from '../../../components'
+import {Header,ActivityDetails} from '../../../components'
 
 const ActivityForm = () => {
   return (
