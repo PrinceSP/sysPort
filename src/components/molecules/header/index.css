@@ -5,8 +5,7 @@
   justify-content: center;
 }
 
-.cont>div>ul>li:hover,
-.cont>.link:hover{
+.cont>div>ul>li:hover{
   background-color: #deedf0;
   padding:10px 20px;
   transition:200ms ease-in-out;
@@ -27,3 +26,9 @@
   z-index:1;
   border-radius: 0 3px;
 }
+
+/* .cont>div>ul>li>.links:active{
+  text-decoration:none;
+  color:#000;
+  width:100%;
+} */

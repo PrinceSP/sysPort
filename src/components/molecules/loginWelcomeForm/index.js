@@ -19,8 +19,8 @@ const WelcomeForm = () => {
         <img src={Eye} alt='straighthrought eye icon'/>
         <img src={Person} alt='person icon'/>
         <img src={Lock} alt='lock icon'/>
-        <input name='email' placeholder='yourid@corporation.com'/>
-        <input name='password' placeholder='password'/>
+        <input style={{padding:"0 12px 0 37px"}} name='email' placeholder='yourid@corporation.com'/>
+        <input style={{padding:"0 12px 0 37px"}} name='password' placeholder='password'/>
         <p>forgot your password?</p>
         <Link style={style} to='/studentPageHome'>
           <Buttons title='Login'/>

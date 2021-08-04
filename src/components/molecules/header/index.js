@@ -52,6 +52,7 @@ export const Menu = ()=>{
           <li style={lists}><Link style={links} to='/studentPageHome'>Home</Link></li>
           <li style={lists}><Link style={links} to='/achievementForm'>Achievement Form</Link></li>
           <li style={lists}><Link style={links} to='/activityForm'>Activity Record</Link></li>
+          <li style={lists}><Link style={links} to='/Profile'>Profile</Link></li>
         </ul>
       </div>
       <Link className="link" to='/'>

@@ -1,4 +1,4 @@
-import {WelcomeForm} from '../../components'
+import {WelcomeForm,Header} from '../../components'
 import {LoginHuman,LoginWaves,FormBoxVector,Tree} from '../../assets'
 import './index.css'
 
